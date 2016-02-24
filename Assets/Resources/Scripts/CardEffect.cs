@@ -10,8 +10,7 @@ public class CardEffect : MonoBehaviour {
         Green
     }
 
-    public CardEffect Effect;
-    public GameObject MasterPlayer;
+    public CardColor Effect = CardColor.Red;
 
 	// Use this for initialization
 	void Start () {
